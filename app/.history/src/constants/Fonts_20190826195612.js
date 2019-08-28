@@ -9,7 +9,7 @@ export const FontSize = {
   standardFontSize: Device.isPhone ? 16 : 24,
   mediumFontSize: Device.isPhone ? 18 : 26,
   bigFontSize: Device.isPhone ? 20 : 26,
-  biggestFontSize: Device.isPhone ? 24 : 53,
+  biggestFontSize: Device.isPhone ? 30 : 53,
   iconsSmallFontSize: Device.isPhone ? 16 : 24,
   iconsFontSize: Device.isPhone ? 20 : 30,
   iconsNormalFontSize: Device.isPhone ? 25 : 40,

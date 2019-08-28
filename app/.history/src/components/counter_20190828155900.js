@@ -46,9 +46,8 @@ class Counter extends Component {
                         activeTintColor="#000"
                         hideNavBar="false" 
                         activeBackgroundColor={Colors.green}
-                        navBarButtonColor={styles.titleStyles}
-                        navigationBarStyle={styles.navBarHome} >
-                            
+                       
+                            navigationBarStyle={styles.navBarHome}
                         <Scene key="Home" component={Home} icon={() => this.renderIcon('home')}
                         //  tabBarOnPress={()=> this.setState({})} 
                          />
@@ -85,9 +84,6 @@ const styles = StyleSheet.create({
         shadowOpacity: 0,
         elevation: 0,
     },
-    navBarHome: {
-        display: "none"
-    }
 });
 
 export default connect(mapStateToProps, matchDispatchToProps)(Counter);
